@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat+Brush&family=Courgette&family=EB+Garamond&family=Just+Another+Hand&family=Mina&family=Poppins:wght@200&family=Water+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.navbar {
+    color: white;
+    background-color: #18151B;
+    font-family: 'EB Garamond', serif;
+}
+
+.dropdown {
+    list-style-type: none;
+    border: solid 1px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    width: 60px;
+}
+
+.dropdown-menu {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.searchbar {
+    width: 40vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#searchbtn {
+    color: #F8A51B;
+    border-color: #F8A51B;
+
+}
+
+#searchbtn:hover {
+    border-color: #F8A51B;
+    background-color: #F8A51B;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#Account {
+    margin: 10px;
+    color: white;
+}
+
+#Cart {
+    margin: 10px;
+    color: white;
+}
+
+
+/* BANNER */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: #8AA500;
+    margin-bottom: 50px;
+    font-family: 'Courgette', cursive;
+}
+
+.bannerText {
+    flex: 1;
+}
+
+.bannerText h1 {
+    font-size: 10rem;
+    font-weight: bold;
+    color: white;
+}
+
+.bannerText p {
+
+    padding: 10px 0;
+    color: white;
+}
+
+.bannerText a {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #F8A51B;
+    border: 2px solid #F8A51B;
+    border-radius: 8px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+
+}
+
+.bannerText a:hover {
+    background-color: #F8A51B;
+    color: white;
+    border: 2px solid white;
+}
+
+.bannerImg {
+    flex: 1;
+}
+
+.bannerImg img {
+    width: 100%;
+}
+
+/* PRODUCTS */
+
+#products {
+    background-color: #E3E6E6;
+    font-family: 'Mina', sans-serif;
+}
+
+#productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#productsContainer>div {
+    width: 300px;
+    border: 10px solid #FFFFFF;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+}
+
+button {
+    color: black;
+    border: 3px solid #FFD814;
+    background-color: #FFD814;
+}
+
+
+/* LOGIN-PAGE */
+#LoginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(abstract-black-polygon-artistic-geometric-with-gold-line-background-vector.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.container .inputbox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputbox input::placeholder {
+    color: #fff;
+}
+
+.container .rememberme_forgotpassword {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.rememberme_forgotpassword label input {
+    margin-right: 3px;
+    cursor: pointer;
+
+}
+
+.rememberme_forgotpassword a {
+    color: #F8A51B;
+    text-decoration: none;
+
+}
+
+.rememberme_forgotpassword a:hover {
+    text-decoration: underline;
+}
+
+.container .btn {
+    width: 100%;
+    height: 45px;
+    background: #FFD814;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+#Loginbtn {
+    text-decoration: none;
+    color: #333;
+}
+
+.container .register_link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.register_link p a {
+    color: #F8A51B;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register_link p a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:690px) {
+    .navbar {
+        width: 100vw;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        flex-wrap: wrap;
+
+    }
+
+    .bannerText h1 {
+        size: 1rem;
+        font-weight: 10px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
